@@ -21,19 +21,15 @@ ready. Rules were checked on 10 October against the
 - [x] Both saved outputs independently audited; status updated in the docs.
 - [x] User confirms Qollab files, title, about, README and header are ready (D31).
       Remaining header rendering is accepted; further image work is closed.
+- [x] Public [QPhylo source](https://github.com/noamurphy/QPhylo) published (D34):
+      all132 committed files match the release, with initial commit preserved.
 
 ## Remaining actions, in order
 
-1. Publish the selected project source/docs under MIT to the intended public
-   repository, preserving third-party licenses. The curated local folder is
-   preparation only. Add its actual URL to Qollab; don't link the entire working
-   folder or research PDFs.
-   User created [noamurphy/QPhylo](https://github.com/noamurphy/QPhylo) (D33).
-   The repository is public but contains only its initial README. Upload failed
-   with403 `Resource not accessible by integration`; finish/reconnect GitHub
-   access to this repository before retrying. A retry after user-reported
-   reconnection still failed; inspect Installed GitHub Apps / repository access
-   and include QPhylo. No project files were published.
+1. Reupload `qollab_upload/README.md`, which now links the published repository
+   and reproduction guide. Add `https://github.com/noamurphy/QPhylo` to any
+   dedicated source-repository field in Qollab. No code/credits/license/image
+   reupload or new quantum run is needed for this link change.
 2. Verify the Qollab project and GitHub repository are publicly accessible
    without login. Retain Qollab access for at least 12 months. The user has
    reviewed the Project Card; public visibility has not yet been verified.
@@ -54,6 +50,7 @@ ready. Rules were checked on 10 October against the
 - Onodera used a quantum-inspired Digital Annealer. This is an adaptation, not
   a full FO/Onodera reproduction or a causal test of which change is better.
 
-Nothing has been submitted or publicly published by this agent. Project Card
-application/review is complete by the user's report. GitHub publication, public
-visibility checks, video recording/upload and captain submission remain pending.
+GitHub source publication is complete and audited (D34). Project Card
+application/review is complete by the user's report; the newly added source
+links still need application. Public Qollab access, video and captain submission
+remain pending. No hackathon submission has been made by this agent.

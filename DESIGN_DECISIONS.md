@@ -888,7 +888,7 @@ Qollab file reuploads.
 ## D33 — Existing public repository verified; upload awaiting GitHub access
 
 **Recorded:** 11 October 2026.
-**Status:** Repository exists; content publication blocked by integration access.
+**Status:** Initially blocked by integration access; resolved by D34.
 **Choice:** Publish the existing curated 131-file inventory plus release manifest
 to `https://github.com/noamurphy/QPhylo`, preserving the user's initial commit.
 Request completion/reconnection of the GitHub app's access to this repository
@@ -923,7 +923,7 @@ retrying writes without another access change. GitHub's official guidance:
 ## D34 — Publish the curated release through the authorized GitHub connection
 
 **Recorded:** 11 October 2026.
-**Status:** Write access verified; publication in progress, pending tree audit.
+**Status:** Published; committed file tree verified.
 **Choice:** Publish the 131 inventoried release files plus `RELEASE_MANIFEST.json`
 to the user's public `noamurphy/QPhylo` repository. Preserve the initial commit
 as parent, use content-addressed Git blobs/tree, then update `main` only after
@@ -945,6 +945,16 @@ access and captain submission remain pending. Record successful publication
 and verification after the remote branch audit; do not count object uploads
 alone as completed publication.
 
+**Publication evidence:** Source commit
+[`1b1324e58ad85ce9dc74dfd35a3b132867856bdf`](https://github.com/noamurphy/QPhylo/commit/1b1324e58ad85ce9dc74dfd35a3b132867856bdf)
+uses tree `4b22b0ddcaabdea0a9c8878269c602afab581907`. All132 paths, file sizes
+and Git blob hashes match the local 131-file release inventory plus manifest.
+The `main` branch update preserved the initial commit and rejected unexpected
+head changes via an expected-head check. The tested main.py SHA-256 remains
+`44e6e35b6da450ec500102a35ade16c00d702bc772c46b0f508811b954b9985c`.
+Final tracking documents and their new release manifest are published in a
+follow-up commit, so publication status is current without rewriting history.
+
 ## Open choices
 
 - Protein-derived Qollab reconstruction is verified for one seed (D22); assess
@@ -959,8 +969,8 @@ alone as completed publication.
   local-trained angles for a separate one-job cut demonstration; its final
   Aria-1 noise-model validation passed (D28).
 - Qollab presentation is applied and accepted by the user (D31). Public GitHub
-  publication, public access checks, video and submission remain pending;
-  final entry compatibility passed (D28).
+  source publication is verified (D34). Qollab visibility, repository-link
+  application, video and submission remain pending; final compatibility passed (D28).
 - The supplied QAOA tutorial prints probabilities summing to 0.4617. Their square
   roots sum to 1, suggesting a conversion issue. Use raw integer counts in our
   adapter; do not import those percentages as validated probabilities.

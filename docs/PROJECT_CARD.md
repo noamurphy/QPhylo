@@ -13,7 +13,8 @@ from the project root to regenerate the images from saved data; this does not
 rerun quantum jobs or NJ bootstrap experiments.
 
 The [original field draft](archive/PROJECT_CARD_D26.md) is retained for history.
-Add actual public repository and video links when publication is complete.
+The finished README now includes the published QPhylo repository and reproduction
+links (D34); reupload it to apply those links. Add the actual video URL after recording.
 The user confirms the Project Card/files/header are applied and ready (D31),
-accepting the remaining header rendering. Public access, repository/video links
-and final submission remain to be verified.
+accepting the remaining header rendering. Source publication is verified (D34).
+Qollab public access, source-link application, video and submission remain pending.

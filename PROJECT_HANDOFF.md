@@ -45,7 +45,8 @@ protein root cut on IonQ/other backends. Both final live checks are verified
 README, credits, Project Card, reproduction guide, demo outline and curated
 `submission_release/` are prepared (D26–D30):131 inventoried files, valid links,
 and55 tests from inside the copy (54 pass/one skip). The user explicitly deferred more experiments and
-wants video near last. Nothing has been submitted or published by this agent.
+wants video near last. Curated source is now published on GitHub (D34);
+hackathon submission and video remain pending.
 D31: the user confirms Qollab uploaded files, title, about, README and header
 are ready. They accept the remaining platform header rendering; no more header
 iterations are needed. Next is publishing the curated release contents as a
@@ -69,6 +70,15 @@ After user-reported reconnection, the write retry still returned403 with empty
 repository/installation listings; no files were uploaded. Next ask the user to
 inspect the installed GitHub App's repository access and include QPhylo, or
 complete app installation if absent. Avoid another reconnect-only loop.
+D34 supersedes the above access blocker: after another user access change,
+license upload succeeds and QPhylo appears in the authorized repository list.
+Source is published at `https://github.com/noamurphy/QPhylo`, commit
+`1b1324e58ad85ce9dc74dfd35a3b132867856bdf`. All132 source/evidence/manifest
+files match the prepared bytes; initial commit is retained as parent. Follow-up
+tracking status is synchronized in the working files, release and repository.
+`qollab_upload/README.md` now contains the source/reproduction links; reupload
+only that README to Qollab and add the repository URL to any dedicated field.
+Next is public Qollab access check, demo recording/upload, then captain submission.
 
 **Upload layout (D27/D29):** The user prefers separate notices instead of full license
 text embedded in code. `python prepare_submission.py` generates the bundle and

@@ -6,9 +6,10 @@ Next actions are GitHub publication, public-access checks, demo video and captai
 submission; see the [finish-line checklist](../docs/SUBMISSION_CHECKLIST.md).
 The instructions below are retained for rebuilding or repeating experiments.
 GitHub publication is authorized for a new public `QPhylo` repository (D32).
-The user created [QPhylo](https://github.com/noamurphy/QPhylo), but connector
-upload is blocked by repository authorization (D33). The public repository
-currently contains only its initial README; the curated release is ready.
+The public [QPhylo repository](https://github.com/noamurphy/QPhylo) is now
+published and all132 committed files were checked against the release (D34),
+resolving D33. Reupload only the latest `qollab_upload/README.md` to add source
+and reproduction links. Next are Qollab public-access checks, video and submission.
 
 **Final entry point (D25/D27/D29):** Upload the contents of `../qollab_upload/`
 to the Qollab project root: [main.py](../qollab_upload/main.py),
