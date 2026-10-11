@@ -1,0 +1,9 @@
+blast_id,taxon,description,original_length,ungapped_length,removed_gaps
+qphylo_000001,taxon1,taxon1,389,389,0
+qphylo_000002,taxon2,taxon2,389,389,0
+qphylo_000003,taxon3,taxon3,389,389,0
+qphylo_000004,taxon4,taxon4,389,389,0
+qphylo_000005,taxon5,taxon5,389,389,0
+qphylo_000006,taxon6,taxon6,389,389,0
+qphylo_000007,taxon7,taxon7,389,389,0
+qphylo_000008,taxon8,taxon8,389,389,0

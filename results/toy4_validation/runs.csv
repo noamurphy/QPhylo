@@ -1,0 +1,2 @@
+optimizer,seed,source_file,status,n,budget_per_attempt,shots_per_job,p,scipy_version,simulator_seed,actual_backend,rf_to_exact,matches_exact,split_nodes,submitted_jobs,requested_shots,job_elapsed_seconds,reinforcements,tree,exact_tree,error
+seeded_coordinate_search,42,/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/qaoa_toyTestResults_noamurphy-qaoa-phylogenetic-tree-reconst-output-completed-2026-10-10T19-58-08.397Z.html,completed,4,9,1000,1,,,BasicSimulator,0,True,1,18,18000,0.08999999999999986,0,"(('A','B'),('C','D'));","(('A','B'),('C','D'));",

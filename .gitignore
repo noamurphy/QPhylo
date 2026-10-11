@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+.env
+Rplots.pdf
+.Rhistory
+.RData
+submission_release/
+results/reproduce*/
+qollab_smoke/reproduce*.py

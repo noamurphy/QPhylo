@@ -1,0 +1,71 @@
+{
+  "schema": "qphylo-final-entry-validation-v1",
+  "status": "verified",
+  "local_prepared_main_sha256": "44e6e35b6da450ec500102a35ade16c00d702bc772c46b0f508811b954b9985c",
+  "graph_signature": "14031c11c5d4f903e7e122ccf69979edc90762d02447821fc00748e376847052",
+  "sources": {
+    "submission_builtin_run1.html": "823375d4ebde4fa3f78ddcb6e37dcd5780f0ef44773e2d0b4517717b43a2b52f",
+    "submission_ionq_run1.html": "f65f4152e8f20094485dd265e4e325de72cff0484e59a7020056464c4616b932"
+  },
+  "builtin": {
+    "status": "completed",
+    "backend": "BasicSimulator",
+    "noise_model": null,
+    "jobs": 403,
+    "shots": 403000,
+    "split_nodes": 4,
+    "accepted_cuts": 9,
+    "penalty_attempts": 14,
+    "reinforcements": 5,
+    "rf_to_exact": 0,
+    "rf_to_saved_nj": 2,
+    "same_seed_counts_match_prior": true,
+    "new_job_ids_disjoint_from_prior": true,
+    "qiskit_versions": [
+      "2.5.2"
+    ],
+    "scipy_versions": [
+      "1.18.0"
+    ]
+  },
+  "ionq": {
+    "status": "probe_completed",
+    "backend": "IonQSimulatorBackend",
+    "noise_model": "aria-1",
+    "jobs": 1,
+    "shots": 1000,
+    "feasible_shots": 218,
+    "optimal_shots": 27,
+    "cut_gap": 0.0,
+    "best_cut": 795.4323749543944,
+    "ncut": 1.04444015003035,
+    "partition": [
+      [
+        "taxon1",
+        "taxon6",
+        "taxon7",
+        "taxon8"
+      ],
+      [
+        "taxon2",
+        "taxon3",
+        "taxon4",
+        "taxon5"
+      ]
+    ],
+    "qiskit_version": "2.5.2",
+    "new_angle_optimization": false,
+    "new_tree": false
+  },
+  "checks": [
+    "Every count dictionary independently rescored",
+    "Stored graph/config/provenance and historical comparison match prepared bundle",
+    "Current jobs and evaluation metadata agree",
+    "Bounds, budgets, initialization seeds, Hamiltonian scales and final best-training-point choices verified",
+    "Penalty actions recomputed from final observed feasibility",
+    "Measured accepted cuts replayed through recursion without an exact fallback",
+    "Exact and saved NJ/reference diagnostics recomputed",
+    "IonQ one-job raw counts, feasibility, energy, optimality and gate counts verified"
+  ],
+  "limits": "Final-entry compatibility verification; identical seeded ideal rerun is not an independent reliability replicate. One noisy frozen-angle cut is not full-tree optimization or a noise comparison study."
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "taxa": [
+      "taxon1",
+      "taxon2",
+      "taxon3",
+      "taxon4",
+      "taxon5",
+      "taxon6",
+      "taxon7",
+      "taxon8"
+    ],
+    "target_size": 4,
+    "left": [
+      "taxon1",
+      "taxon6",
+      "taxon7",
+      "taxon8"
+    ],
+    "right": [
+      "taxon2",
+      "taxon3",
+      "taxon4",
+      "taxon5"
+    ],
+    "cut": 795.4323749543944,
+    "ncut": 1.0444401500303497
+  },
+  {
+    "taxa": [
+      "taxon1",
+      "taxon6",
+      "taxon7",
+      "taxon8"
+    ],
+    "target_size": 1,
+    "left": [
+      "taxon8"
+    ],
+    "right": [
+      "taxon1",
+      "taxon6",
+      "taxon7"
+    ],
+    "cut": 98.76774417046803,
+    "ncut": 1.1923384717553107
+  },
+  {
+    "taxa": [
+      "taxon1",
+      "taxon6",
+      "taxon7"
+    ],
+    "target_size": 1,
+    "left": [
+      "taxon1"
+    ],
+    "right": [
+      "taxon6",
+      "taxon7"
+    ],
+    "cut": 119.20439945727219,
+    "ncut": 1.4033472000281386
+  },
+  {
+    "taxa": [
+      "taxon2",
+      "taxon3",
+      "taxon4",
+      "taxon5"
+    ],
+    "target_size": 2,
+    "left": [
+      "taxon2",
+      "taxon3"
+    ],
+    "right": [
+      "taxon4",
+      "taxon5"
+    ],
+    "cut": 240.5640104396163,
+    "ncut": 1.1139948380707447
+  }
+]

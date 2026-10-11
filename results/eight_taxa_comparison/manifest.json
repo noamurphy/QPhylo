@@ -1,0 +1,30 @@
+{
+  "source_files": [
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/eight_taxa_results/comparison/cobyla_seed42.html",
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/eight_taxa_results/comparison/cobyla_seed43.html",
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/eight_taxa_results/comparison/cobyla_seed44.html",
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/eight_taxa_results/comparison/cobyla_seed45.html",
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/eight_taxa_results/comparison/cobyla_seed46.html",
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/eight_taxa_results/comparison/coordinate_seed42.html",
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/eight_taxa_results/comparison/coordinate_seed43.html",
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/eight_taxa_results/comparison/coordinate_seed44.html",
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/eight_taxa_results/comparison/coordinate_seed45.html",
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/eight_taxa_results/comparison/coordinate_seed46.html"
+  ],
+  "graph_signature": "ea58163fca773371572040bb9fe29efe944ef5ecb4d7815ad77925ec7bcfa63a",
+  "paired_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "replicates": 10,
+  "failed_runs": 0,
+  "measured_evaluations": 2290,
+  "final_measurements": 81,
+  "scope": "Synthetic ideal-simulator optimizer comparison; no biological or quantum-advantage claim.",
+  "curve": "Root c=n/2, attempt 0, scaled penalized training energy versus measured evaluations.",
+  "timing": "Sum of recorded job elapsed times, not full program wall time.",
+  "uniform_baseline": "Analytic uniform bitstring sampling, not a measured random-solver run."
+}

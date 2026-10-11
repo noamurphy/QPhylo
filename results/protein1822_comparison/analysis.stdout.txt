@@ -1,0 +1,8 @@
+     method1            method2 rf normalized_rf
+        QAOA        Exact_NMcut  0           0.0
+        QAOA           Model_NJ  2           0.2
+        QAOA Provided_reference  2           0.2
+ Exact_NMcut           Model_NJ  2           0.2
+ Exact_NMcut Provided_reference  2           0.2
+    Model_NJ Provided_reference  0           0.0
+NJ baseline and topology comparison completed.

@@ -1,0 +1,15 @@
+{
+  "source_files": [
+    "/Users/murphy/PythonProjects/Qollab Hackathon/qollab_smoke/qaoa_toyTestResults_noamurphy-qaoa-phylogenetic-tree-reconst-output-completed-2026-10-10T19-58-08.397Z.html"
+  ],
+  "graph_signature": "5832d825ff7d22a74ca9ef4a867200b29468c15646c2ba1330cf0fae7cf6dcec",
+  "paired_seeds": [],
+  "replicates": 1,
+  "failed_runs": 0,
+  "measured_evaluations": 18,
+  "final_measurements": 2,
+  "scope": "Synthetic ideal-simulator optimizer comparison; no biological or quantum-advantage claim.",
+  "curve": "Root c=n/2, attempt 0, scaled penalized training energy versus measured evaluations.",
+  "timing": "Sum of recorded job elapsed times, not full program wall time.",
+  "uniform_baseline": "Analytic uniform bitstring sampling, not a measured random-solver run."
+}
