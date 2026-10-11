@@ -2,19 +2,22 @@
 
 **Submission presentation (D31):** The user confirms files, title, about, README
 and header are uploaded and ready. Remaining header rendering is accepted.
-Next actions are GitHub publication, public-access checks, demo video and captain
-submission; see the [finish-line checklist](../docs/SUBMISSION_CHECKLIST.md).
+Next actions are applying the image-link fix, later public-access checks, demo
+video and captain submission; see the [finish-line checklist](../docs/SUBMISSION_CHECKLIST.md).
 The instructions below are retained for rebuilding or repeating experiments.
 GitHub publication is authorized for a new public `QPhylo` repository (D32).
 The public [QPhylo repository](https://github.com/noamurphy/QPhylo) is now
 published and all132 committed files were checked against the release (D34),
-resolving D33. Reupload only the latest `qollab_upload/README.md` to add source
-and reproduction links. Next are Qollab public-access checks, video and submission.
+resolving D33. The user has applied the README/source links and connected GitHub.
+D35 changes the upload README figures to direct public GitHub image URLs because
+Qollab does not support the expected folder layout. Reupload only that README.
+The project remains private by user choice; public checks are deferred until later.
+Next are video, later public-access checks and submission.
 
 **Final entry point (D25/D27/D29):** Upload the contents of `../qollab_upload/`
 to the Qollab project root: [main.py](../qollab_upload/main.py),
 [LICENSE](../qollab_upload/LICENSE), [CREDITS.md](../qollab_upload/CREDITS.md),
-[README.md](../qollab_upload/README.md), and its `assets/` folder. The upload
+[README.md](../qollab_upload/README.md), with figures loaded from public GitHub image URLs (D35). The upload
 README is the Project Card; select `assets/project_banner_v2.png` for the separate
 header image (D30). This is conceptual AI artwork designed for the shallow crop,
 not a results diagram. The original results images are copied unchanged, and

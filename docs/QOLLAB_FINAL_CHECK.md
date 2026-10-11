@@ -8,8 +8,9 @@ The instructions below remain available for repeating the checks.
 
 Upload [main.py](../qollab_upload/main.py), [LICENSE](../qollab_upload/LICENSE),
 [CREDITS.md](../qollab_upload/CREDITS.md), [README.md](../qollab_upload/README.md),
-and the `assets/` folder from `qollab_upload/` to the
-Python/Qiskit project root, replacing its existing `main.py`. The code is identical
+from `qollab_upload/` to the Python/Qiskit project root, replacing its existing
+`main.py`. Inline figures load from direct public GitHub image URLs (D35);
+no asset-folder upload is needed. The code is identical
 to [submission_main.py](../qollab_smoke/submission_main.py). Leave `RUN_MODE = 'auto'`.
 Choose `assets/project_banner_v2.png` for the separate project header. Check its
 crop and ensure that

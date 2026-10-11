@@ -56,7 +56,7 @@ partition is never replaced by an exact answer.
 
 ## Protein pilot results
 
-![QAOA, exact graph-cut, neighbor-joining and supplied-reference tree topologies](assets/tree_comparison.png)
+![QAOA, exact graph-cut, neighbor-joining and supplied-reference tree topologies](https://raw.githubusercontent.com/noamurphy/QPhylo/main/qollab_upload/assets/tree_comparison.png)
 
 *The same eight proteins underlie every tree. Branch lengths are hidden; the
 display anchor does not establish an evolutionary root. NJ labels show site
@@ -82,7 +82,7 @@ results, rather than quantum-hardware runs.
 
 ## Optimizer pilot
 
-![Five paired initialization seeds comparing coordinate search and COBYLA on a synthetic eight-taxon graph](assets/optimizer_comparison.png)
+![Five paired initialization seeds comparing coordinate search and COBYLA on a synthetic eight-taxon graph](https://raw.githubusercontent.com/noamurphy/QPhylo/main/qollab_upload/assets/optimizer_comparison.png)
 
 Five paired initialization seeds produced ten successful synthetic eight-taxon
 runs. Every tree matched exact graph-cut topology. COBYLA used **203.8 mean

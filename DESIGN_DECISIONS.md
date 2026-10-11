@@ -955,6 +955,32 @@ head changes via an expected-head check. The tested main.py SHA-256 remains
 Final tracking documents and their new release manifest are published in a
 follow-up commit, so publication status is current without rewriting history.
 
+## D35 — Use public GitHub image URLs in the Qollab README
+
+**Recorded:** 11 October 2026.
+**Status:** README prepared and synchronized; Qollab rendering check pending.
+**Choice:** Replace the two relative `assets/` figure links in the maintained
+Qollab upload README with direct `raw.githubusercontent.com` URLs to the
+published PNG files. Preserve the local/GitHub asset folder and all image bytes.
+Only the README needs reapplication; code, notices and header remain unchanged.
+This supersedes D29's Qollab asset-folder upload requirement for inline figures.
+
+**Why / evidence:** The user reports Qollab does not support the expected folder
+layout and relative figure paths fail. They can see the figures on GitHub.
+GitHub's contents endpoint verifies both `qollab_upload/assets/tree_comparison.png`
+and `optimizer_comparison.png` and returns their public raw download URLs.
+Use the image bytes URL rather than a GitHub file-view page. These absolute
+URLs work independently of the Qollab project path or upload layout.
+
+**Consequences / limits:** Qollab must permit externally hosted Markdown images;
+visual confirmation remains pending. Availability depends on the public GitHub
+repository and keeping these paths. A signed-out visit to the supplied Qollab
+URL returned "Project not found" / "doesn't exist, or it isn't public". The user
+confirms it is intentionally private and asks to defer public inspection, so
+no public-access failure beyond that setting is inferred. Source links and
+GitHub connection are applied by user report. Public access, video and captain
+submission remain pending; no new quantum measurements are needed.
+
 ## Open choices
 
 - Protein-derived Qollab reconstruction is verified for one seed (D22); assess
@@ -969,8 +995,8 @@ follow-up commit, so publication status is current without rewriting history.
   local-trained angles for a separate one-job cut demonstration; its final
   Aria-1 noise-model validation passed (D28).
 - Qollab presentation is applied and accepted by the user (D31). Public GitHub
-  source publication is verified (D34). Qollab visibility, repository-link
-  application, video and submission remain pending; final compatibility passed (D28).
+  source publication is verified (D34). Qollab public visibility is deferred by the user (D35). Repository links are
+  applied; image-link rendering, video and submission remain pending; final compatibility passed (D28).
 - The supplied QAOA tutorial prints probabilities summing to 0.4617. Their square
   roots sum to 1, suggesting a conversion issue. Use raw integer counts in our
   adapter; do not import those percentages as validated probabilities.

@@ -80,6 +80,15 @@ tracking status is synchronized in the working files, release and repository.
 only that README to Qollab and add the repository URL to any dedicated field.
 Next is public Qollab access check, demo recording/upload, then captain submission.
 
+D35: user has applied the source-linked README, reviewed GitHub and connected
+it to Qollab. Qollab is intentionally private; the signed-out page returns
+"Project not found", consistent with that setting. Public review is deferred
+at the user's request. The user reports folders are not viable in Qollab and
+inline figures fail with relative paths. The upload README now uses direct
+`raw.githubusercontent.com` URLs for the two verified public GitHub figures.
+Only reupload that README and check rendering; main/notices/images are unchanged.
+This supersedes the asset-folder upload requirement for inline figures below.
+
 **Upload layout (D27/D29):** The user prefers separate notices instead of full license
 text embedded in code. `python prepare_submission.py` generates the bundle and
 `qollab_upload/{main.py,LICENSE,CREDITS.md}`, plus the maintained

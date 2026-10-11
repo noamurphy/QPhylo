@@ -26,13 +26,15 @@ ready. Rules were checked on 10 October against the
 
 ## Remaining actions, in order
 
-1. Reupload `qollab_upload/README.md`, which now links the published repository
-   and reproduction guide. Add `https://github.com/noamurphy/QPhylo` to any
-   dedicated source-repository field in Qollab. No code/credits/license/image
-   reupload or new quantum run is needed for this link change.
+1. The user has applied the README/source links and connected GitHub. Reupload
+   the latest `qollab_upload/README.md` for the D35 direct GitHub image URLs;
+   check that both figures render. No code/credits/license/image upload or new
+   quantum run is needed for this fix.
 2. Verify the Qollab project and GitHub repository are publicly accessible
    without login. Retain Qollab access for at least 12 months. The user has
-   reviewed the Project Card; public visibility has not yet been verified.
+   reviewed the Project Card. A signed-out check returned "Project not found";
+   the user confirms the project is intentionally private for now (D35). Make
+   it public and repeat the access check later, before submission.
 3. Record the [demo](DEMO_SCRIPT.md) once the entry is stable. Upload a **2–3
    minute**, publicly watchable video; verify playback while logged out. Add
    its actual URL to the project/submission.
@@ -51,6 +53,6 @@ ready. Rules were checked on 10 October against the
   a full FO/Onodera reproduction or a causal test of which change is better.
 
 GitHub source publication is complete and audited (D34). Project Card
-application/review is complete by the user's report; the newly added source
-links still need application. Public Qollab access, video and captain submission
-remain pending. No hackathon submission has been made by this agent.
+application/review and source-link connection are complete by the user's report.
+The direct-image URL fix still needs application/visual checking. Public Qollab
+access is deferred by the user; video and captain submission remain pending. No hackathon submission has been made by this agent.

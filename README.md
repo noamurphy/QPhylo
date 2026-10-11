@@ -14,7 +14,8 @@ advantage. See [credits and starting materials](CREDITS.md).
 1. Use a **Python / Qiskit** project. Upload the contents of `qollab_upload/`
    to its project root: [main.py](qollab_upload/main.py),
    [LICENSE](qollab_upload/LICENSE), [CREDITS.md](qollab_upload/CREDITS.md),
-   [README.md](qollab_upload/README.md), and its `assets/` folder.
+   [README.md](qollab_upload/README.md), with figures loaded from public GitHub image URLs (D35).
+   Qollab does not need an `assets/` folder for the inline figures.
    This upload README is the finished Qollab Project Card. Select
    `assets/project_banner_v2.png` as the separate project header image (D30).
    Replace the existing `main.py`. The code has a short copyright/SPDX header;
